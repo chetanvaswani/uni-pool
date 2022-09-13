@@ -1,1 +1,3 @@
 # uni-pool
+## Problem it solves
+Uni-pool is a web application that solves the problem of college transit for students my allowing them to create ride and car pools, it allows them to schedule the time they will be leaving for college and then recommend pools. This way students can save on fuel, and also lower their carbon footprint. Which was one of the main motives behind creating Uni-pool. And in order to motivate students to use this as much as possible, we also show them the statistics of how much they have saved on fuel and what is the difference between their carbon footprint after using Uni-pool. Students also get rewarded based on their behaviour and their carbon footprint.
