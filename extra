@@ -1,0 +1,24 @@
+// function getLocationBtn(){
+//   return (
+//     <button onClick={() => {
+//       if (window.navigator.geolocation) {
+//         window.navigator.geolocation.getCurrentPosition((res) => {
+//           console.log(res.coords.latitude, res.coords.longitude);
+//         }, console.log);
+//        } 
+//     }}>give location</button>
+//   )
+// }
+
+<GetLocationBtn setLatitude={setLatitude} setLongitude={setLongitude} />
+
+function GetLocationBtn({setLatitude, setLongitude}){
+    return (
+    <button onClick={() => {
+        window.navigator.geolocation.getCurrentPosition((res) => {
+            setLatitude(res.coords.latitude);
+            setLongitude(res.coords.longitude);
+        }, console.log);
+    }}>give location</button>
+    )
+}

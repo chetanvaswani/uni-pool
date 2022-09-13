@@ -1,0 +1,117 @@
+.signup-page{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(to top, #e83ffd 0%, #a407ea 100%);
+}
+
+.signup-form{
+    border: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#dropdown-text{
+    color: rgb(101, 100, 100);
+    margin-left: 10px;
+}
+
+#gender-icon{
+    margin-left: 9px;
+}
+
+#signup-heading{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+
+
+.input-box-div{
+    box-shadow: 6px 6px 10px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    width: 75%;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.input-box{
+    border: 0;
+    font-size: 1.1rem;
+    width: 75%;
+    margin-left: 15px;
+}
+
+.input-box:focus{
+    outline: none;
+}
+
+.input-box-svg-div{
+    width: 25px;
+    height: auto;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.input-box-svg{
+    color: #dc36f8;
+    margin-left: 15px;
+}
+
+#terms-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#create-account-btn{
+    margin-top: 10px;
+    height: 45px;
+    width: 50%;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#create-account-btn:hover{
+    background-color: white;
+    color: #a407ea;
+}
+
+#create-account-btn:disabled{
+    color: rgba(255, 255, 255, 0.35);
+    border: 2px solid rgba(255, 255, 255, 0.35);
+}
+
+#create-account-btn:disabled:hover{
+    background-color: transparent;
+    cursor: default;
+}
+
+.hidden{
+    display: none;
+}
+
+.input-box-left-div{
+    position: relative;
+    right: 10px;
+    width: 22px;
+    height: auto;
+}
+
+#show, #hide{
+    cursor: pointer;
+}
